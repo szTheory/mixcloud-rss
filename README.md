@@ -1,17 +1,17 @@
 MixCloud RSS Converter
 ======================
 
-_[Use or try the MixCloud to RSS converter here](http://bits.meloncholy.com/mixcloud-rss) (and subscribe the feeds too if you want)._
+_[Use or try the MixCloud to RSS converter here](https://mixcloud-rss.herokuapp.com/) (and subscribe the feeds too if you want)._
 
 While it [used to](http://feedback.mixcloud.com/forums/3043-general/suggestions/1922671-loss-of-user-mixes-rss), MixCloud unfortunately doesn't offer RSS feeds anymore. So I decided to add them back. 
 
 MixCloud has [an API](http://www.mixcloud.com/developers/documentation) that gives a stream of recent uploads, so I used this to get an embedded music player for each post via their oEmbed API. 
 
-You can see the [code in action here](http://bits.meloncholy.com/mixcloud-rss) (feel free to use the feeds too), and there's a [sample WordPress page here](http://www.breakzdjs.com/category/music/) that syndicates feeds from a number of MixCloud (and SoundCloud) accounts. 
+You can see the [code in action here](https://mixcloud-rss.herokuapp.com/) (feel free to use the feeds too). 
 
 I really am standing on the shoulders of giants here as this required almost no code on my part (maybe 300 lines) thanks to the MixCloud API, the [node-oembed](https://github.com/astro/node-oembed) and [node-rss](https://github.com/dylang/node-rss) modules from Stephan Maka and Dylan Greene, and of course Express, Jade and Node.js. 
 
-If you want to read a more verbose version of this introduction (though I don't think there's much extra insight), you can do that [here](http://meloncholy.com/blog/mixcloud-rss-converter-in-node-js/).
+If you want to read a more verbose version of this introduction (though I don't think there's much extra insight), you can do that [here](https://web.archive.org/web/20150923052645/http://meloncholy.com/blog/mixcloud-rss-converter-in-node-js/).
 
 
 Settings
@@ -38,7 +38,7 @@ Example
 {
 	"mode": "development",
 	"localPort": 3000,
-	"url": "http://bits.meloncholy.com/mixcloud-rss/",
+	"url": "https://mixcloud-rss.herokuapp.com/",
 	"title": "MixCloud to RSS converter",
 	"author": "Andrew Weeks",
 	"description": "Get an RSS feed for your (or anyone else's) Mixcloud mixes and podcasts.",
