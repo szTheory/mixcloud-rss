@@ -11,6 +11,7 @@
 $(function () {
 	"use strict";
 
+	var config = require("konphyg")(__dirname + "/config/");
 	var $progressBar = $("#progress-bar");
 	var progressTracker;
 	var percent = 1;
