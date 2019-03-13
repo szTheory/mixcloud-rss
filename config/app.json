@@ -1,7 +1,7 @@
 {
   "mode": "production",
   "localPort": 3000,
-  "url": "http://bits.meloncholy.com/mixcloud-rss/",
+  "url": "https://mixcloud-rss.herokuapp.com/",
   "title": "MixCloud to RSS converter",
   "author": "Andrew Weeks",
   "description": "Get an RSS feed for your (or anyone else's) Mixcloud mixes and podcasts. Just paste in the MixCloud account you want and get an RSS URL in return.",
