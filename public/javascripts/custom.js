@@ -11,12 +11,11 @@
 $(function () {
 	"use strict";
 
-	var config = require("konphyg")(__dirname + "/config/");
 	var $progressBar = $("#progress-bar");
 	var progressTracker;
 	var percent = 1;
 	var step = 1;
-	var siteUrl = config("app").url;
+	var siteUrl = "https://mixcloud-rss.herokuapp.com/";
 	var successHtml = $("#alert-success").html();
 
 	$(".alert").hide();
