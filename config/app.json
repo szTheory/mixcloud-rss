@@ -1,6 +1,6 @@
 {
   "mode": "production",
-  "localPort": 3000,
+  "localPort": 3002,
   "url": "https://mixcloud-rss.herokuapp.com/",
   "title": "MixCloud to RSS converter",
   "author": "Andrew Weeks",
