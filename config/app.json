@@ -1,6 +1,6 @@
 {
   "mode": "production",
-  "localPort": 3002,
+  "localPort": 3000,
   "url": "http://bits.meloncholy.com/mixcloud-rss/",
   "title": "MixCloud to RSS converter",
   "author": "Andrew Weeks",
