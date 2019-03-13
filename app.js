@@ -51,5 +51,5 @@ app.get("/:user/test", routes.feed.test);
 app.get("/:user", routes.feed.index);
 app.get("/", routes.site.index);
 
-app.listen(config("app").localPort);
+app.listen(process.env.PORT || config("app").localPort);
 console.log("We're up on port %d in %s mode.", app.address().port, app.settings.env);
