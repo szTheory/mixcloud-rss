@@ -15,7 +15,7 @@ $(function () {
 	var progressTracker;
 	var percent = 1;
 	var step = 1;
-	var siteUrl = "http://bits.meloncholy.com/mixcloud-rss/";
+	var siteUrl = config("app").url;
 	var successHtml = $("#alert-success").html();
 
 	$(".alert").hide();
