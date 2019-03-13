@@ -16,6 +16,7 @@ $(function () {
 	var percent = 1;
 	var step = 1;
 	var siteUrl = "https://mixcloud-rss.herokuapp.com/";
+	// var siteUrl = "http://localhost:3002/";
 	var successHtml = $("#alert-success").html();
 
 	$(".alert").hide();

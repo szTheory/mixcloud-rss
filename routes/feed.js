@@ -112,6 +112,7 @@ var feed = function () {
 		var user = sanitize(req.params.user).xss();
 		var stuff = { req: req, res: res, user: user };
 		var streamUrl = settings.cloudcastStreamUrl.replace("%user", user);
+		console.log("streamUrl: "+streamUrl);
 
 		oembed.fetchJSON(streamUrl, function (error, result) { fetchCloudcastTest(stuff, error, result); });
 	};
