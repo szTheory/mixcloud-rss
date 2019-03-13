@@ -67,12 +67,4 @@ In case NPM doesn't help you out for some reason, you'll also need
 Legal fun
 ---------
 
-Copyright &copy; 2012 Andrew Weeks http://meloncholy.com
-
-MixCloud RSS Converter is licensed under the [MIT licence](http://meloncholy.com/licence/).
-
-
-Me
---
-
-I have a [website](http://meloncholy.com) and a [Twitter](https://twitter.com/meloncholy). Please come and say hi if you'd like or if something's not working; be lovely to hear from you. 
+MixCloud RSS Converter is licensed under the MIT licence.
